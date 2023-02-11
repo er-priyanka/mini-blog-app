@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+h1{
+    margin: 40px auto 0px auto;
+    text-align: center;
+    color: rgb(10, 10, 153);
+}
+
+#form{
+    width: 50%;
+    margin: 40px auto;
+    box-shadow: 1px 2px 5px 2px gray;
+    padding: 40px 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#form>p{
+    border: 1px solid rgb(144, 142, 142);
+    
+}
+
+#form p, #form input, #form textarea, #form select, #form button{
+    padding: 10px;
+    font-size: 1.1rem;
+}
+
+#form button{
+    font-weight: bold;
+    background-color:  rgb(68, 68, 244);
+    border: none;
+    color: white;
+   cursor: pointer;
+}
+
+#form button:hover{
+    background-color: blue;
+}

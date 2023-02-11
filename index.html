@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog App</title>
+    <link rel="stylesheet" href="./styles/navbar.css">
+</head>
+<body>
+   <div id="nav-container">
+
+   </div>
+    
+</body>
+</html>
+
+<script type="module">
+    import navbar from "./components/navbar.js";
+    // console.log(navbar);
+    let nav_container = document.getElementById('nav-container');
+
+    nav_container.innerHTML = navbar;
+    
+</script>

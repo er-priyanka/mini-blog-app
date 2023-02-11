@@ -1,0 +1,150 @@
+
+
+#filter-container{
+    width: 100%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+#filter-container>div{
+    display: flex;
+    
+}
+
+#filter-container input,#filter-container button, #filter-container select {
+    padding: 5px 10px;
+
+}
+
+
+
+#addblog{
+    display: flex;
+    justify-content: end;
+    padding: 20px 40px;
+}
+
+#add{
+    color: blue;
+    font-weight: bold;
+    border: 1px solid blue;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#add:hover{
+    color: white;
+    background-color: blue;
+}
+
+#blogContainer{
+    width: 80%;
+    margin: 20px auto 40px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#blogContainer>div{
+    box-shadow: 1px 2px 5px 2px rgb(200, 198, 198);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.userBox{
+    display: flex;
+    justify-content: space-between;
+}
+
+.userBox>div{
+    display: flex;
+    gap: 10px;
+}
+
+.userBox img{
+    width: 60px;
+    height: 60px;
+
+}
+
+.userBox button{
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.edit{
+    color: red;
+    border: 1px solid red ;
+    
+}
+
+.edit:hover{
+    color: white;
+    background-color: red;
+}
+
+.delete{
+    color: green;
+    border: 1px solid green;
+}
+
+.delete:hover{
+    background-color: green;
+    color: white;
+    
+}
+
+.content>h1{
+    font-size: 1.1rem;
+    text-transform: capitalize;
+}
+
+.content>p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.likeNComment{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.likeNComment > div{
+    display: flex;
+    gap: 20px;
+}
+
+.likeNComment button{
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.likeNComment button:hover{
+    background-color: rgb(61, 150, 61);
+
+}
+
+#pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+#pagination>button{
+    padding: 5px 10px;
+}
